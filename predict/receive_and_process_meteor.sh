@@ -6,7 +6,7 @@
 # $5 = EPOC start time
 # $6 = Time to capture
 
-cd /home/pi/weather
+cd /home/pi/Desktop/satellite
 
 timeout $6 predict/rtlsdr_m2_lrpt_rx.py $1 $2 $3
 
